@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+    display: flex;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    
+    
+  }
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content:space-between;
+    
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+    margin-right: 46px;
+    
+  
+    
+  }
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    
+    
+  }
+
+main ul{
+  list-style: none;
+  margin-bottom: 34px;
+  margin-top: 34px;
+  flex-wrap: wrap;
+  display: flex;
+ 
+
+}
+
+main ul li{
+  margin-top: 20px;
+  width: 24%;
+  flex-direction: column;
+  justify-content: end;
+  display: flex
+  
+
+  
+}
+
+button{
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 20px 0 20px;
+    align-items:center;
+    border-radius: 4px;
+    border: 0;
+    width: 80%;
+    height: 40px;
+}
+
+.card_products{
+
+width: 374px;
+height: 500px;
+border-radius: 8px;
+box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.09);
+padding: 20px;
+max-width: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.menu-link-button:hover {
+  background-color: #202849;
+ 
+}
+
+figure{
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+}
+
+img{
+  width: 70%;
+
+}
+
+span{
+  width: 100%;
+}

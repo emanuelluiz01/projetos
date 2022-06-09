@@ -1,0 +1,26 @@
+span{
+    color: blue;
+}
+a{
+    color: blue;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#black{
+    background-color: black ;
+    color: white;
+}
+
+.background-blue{
+    background-color:#3662FF ;
+    line-height: 28px;
+    color: white;
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
